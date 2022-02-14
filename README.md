@@ -23,6 +23,11 @@ node {
 
                        }
              }
+            post {
+                always {}
+                success {}
+                failure{}
+            }
       }
     }
     
