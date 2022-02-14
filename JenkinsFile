@@ -1,0 +1,11 @@
+    pipeline {
+      agent any
+              stages {
+                    stage("Stage_name") {
+                      steps {
+                          sh 'echo "Sample pipeline" '
+
+    }
+    }
+    }
+    }
