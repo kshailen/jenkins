@@ -1,9 +1,14 @@
 # jenkins
 Jenkins files can be written in two formats.
 ##Scripted:
-groovy script
+groovy script </br>
+groovy engine </br>
+Advanced scripting capabilities , high flexibility </br>
+
+
 ```
 node {
+ //groovy script
 }
 ```
 ##Declerative Pipeline:
@@ -16,9 +21,9 @@ node {
                       steps {
                           sh 'echo "Sample pipeline" '
 
-    }
-    }
-    }
+                       }
+             }
+      }
     }
     
 ```
