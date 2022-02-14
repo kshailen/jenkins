@@ -17,7 +17,7 @@ pipeline {
                                    steps {
                                        sh 'echo "Deploying App" '
                                        script {
-                                                println( "Deployed - Prining from groovy Code")
+                                                println( "Deployed - Printing from groovy Code")
                                        }
 
                                     }
