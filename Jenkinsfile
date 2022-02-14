@@ -24,7 +24,7 @@ pipeline {
                                        echo "Deploying App"
                                        script {
                                                 println( "Deployed - Printing from groovy Code")
-                                                pipeline "Deploying ${ENVIRONMENT_VERSION}"
+                                                println "Deploying ${ENVIRONMENT_VERSION}"
                                        }
 
                                     }
