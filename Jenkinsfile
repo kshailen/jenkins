@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         PIPELINE_TYPE = "Multi Branch Pipeline"
-        ENVIRONMENT_VERSION = 1.0.4
+        ENVIRONMENT_VERSION = "1.0.4"
 
 
     }
