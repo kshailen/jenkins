@@ -11,7 +11,7 @@ node {
  //groovy script
 }
 ```
-##Declerative Pipeline:
+## Declerative Pipeline:
 
 ```
     pipeline {
